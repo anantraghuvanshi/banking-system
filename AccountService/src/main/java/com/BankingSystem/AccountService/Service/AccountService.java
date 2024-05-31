@@ -17,7 +17,7 @@ public class AccountService {
         return accountRepository.save(account);
     }
 
-    public List<Account> getAccountsById(Long userId){
+    public List<Account> getAccountsByUserId(Long userId){
         return accountRepository.findByUserId(userId);
     }
 
