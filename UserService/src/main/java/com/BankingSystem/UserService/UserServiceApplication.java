@@ -1,5 +1,6 @@
 package com.BankingSystem.UserService;
 
+import com.BankingSystem.UserService.Service.UserService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
